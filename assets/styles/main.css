@@ -64,7 +64,7 @@ ul, li {
 button {
 	outline: none;
 	border: none;
-  background: #689717
+    background: #b93c39
 }
 
 button:hover {
@@ -615,3 +615,8 @@ a span{
   color:white;
   font-size: 10px
 }
+
+#infopratblue{
+  margin-top: -125px;
+}
+
