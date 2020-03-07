@@ -3387,8 +3387,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 -----------------------------------------------------------
 */
 .size1 {
-	width: 135px;
-	height: 40px;
+	max-width: 135px;
 }
 
 .size2 {
