@@ -172,7 +172,7 @@
             dotsClass:'slick3-dots',
             infinite: true,
             autoplay: true,
-            autoplaySpeed: 6000,
+            autoplaySpeed: 1000,
             arrows: true,
             appendArrows: $('.wrap-slick3'),
             prevArrow:'<button class="arrow-slick3 prev-slick3"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
