@@ -5,7 +5,6 @@ function Init(){
     buttonSubmit.addEventListener('click',function e(){checkLoginInputs()});
 }
 
-
 function checkLoginInputs(){
 
     //Variables d'éléments HTML
