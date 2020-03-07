@@ -157,9 +157,6 @@ iframe {
   }
 }
 
-
-
-
 /*[ Header ]
 ///////////////////////////////////////////////////////////
 */
@@ -584,8 +581,7 @@ iframe {
   margin-top: 30px;
 }
 
-
-.responsive {
+responsive {
   max-width: 100%;
   height: auto;
 }
@@ -613,12 +609,12 @@ a span{
   transition:all .25s;
   opacity:1;
   border-radius: 40%;
-  
+
 }
 
 #descwh{
   color:white;
   font-size: 10px
-  
-  
+
+
 }
