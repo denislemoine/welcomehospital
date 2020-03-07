@@ -212,8 +212,12 @@
    }
    img {
     vertical-align:middle;
-    border-style:none
-   }
+    border-style:none;
+    max-width: 100%;
+    height: auto;
+  }
+
+
    svg:not(:root) {
     overflow:hidden
    }
@@ -4803,7 +4807,7 @@
     background-color:#1d2124!important
    }
    .bg-white {
-    background-color:#8fb11e!important
+    background-color:white!important
    }
    .bg-transparent {
     background-color:transparent!important
