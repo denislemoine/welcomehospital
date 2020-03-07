@@ -581,5 +581,40 @@ iframe {
   margin-top: 30px;
 }
 
-#secImLesBonsPlans{
+responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width : 500px){
+.responsive {
+  max-width: 50%;
+  height: auto;
+
+  }
+}
+
+
+a span{
+  position:absolute;
+  margin-top:75px;
+  margin-left:-35px;
+  margin-right: 25px;
+  color:white;
+  background-color: black;
+  padding:15px;
+  box-shadow:0 0 2px rgba(0,0,0,.5);
+  transform:scale(0) rotate(-18deg);
+  transform:scale(1) rotate(0);
+  transition:all .25s;
+  opacity:1;
+  border-radius: 40%;
+
+}
+
+#descwh{
+  color:white;
+  font-size: 10px
+
+
 }
