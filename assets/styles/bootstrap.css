@@ -4632,8 +4632,9 @@
    .carousel-control-next,
    .carousel-control-prev {
     position:absolute;
+    margin-left: 18%;
     top:0;
-    bottom:0;
+    bottom:4em;
     display:-ms-flexbox;
     display:flex;
     -ms-flex-align:center;
