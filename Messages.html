@@ -23,10 +23,10 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="assets/styles/discution.css">
-		<script type="text/javascript" src="assets/js/discution.js"></script>
+		<script type="text/javascript" src="assets/js/discussion.js"></script>
         </head>
 
-        <body class="animsition" style="animation-duration: 1500ms; opacity: 1;">
+        <body onload="Init()" class="animsition" style="animation-duration: 1500ms; opacity: 1;">
 
                 <header>
 
@@ -98,7 +98,7 @@
                         <a href="Annuaire.html" class="txt19">Annuaire</a>
                         </li>
                         <li class="t-center m-b-3">
-                        <a href="Discution.html" class="txt19">Discussions</a>
+                        <a href="Discussion.html" class="txt19">Discussions</a>
                         </li>
 					<li class="t-center m-b-10">
 						<a href="HomeDisconnect.html" class="txt19">Se déconnecter</a>
@@ -111,82 +111,8 @@
 
         <div class="container-fluid h-100">
 			<div class="row justify-content-center h-100">
-				<div class="col-md-4 col-xl-3 chat"><div class="card mb-sm-3 mb-md-0 contacts_card">
-					<div class="card-header">
-						<div class="input-group">
-							<input type="text" placeholder="Search..." name="" class="form-control search">
-							<div class="input-group-prepend">
-								<span class="input-group-text search_btn"><i class="fas fa-search"></i></span>
-							</div>
-						</div>
-					</div>
-					<div class="card-body contacts_body">
-						<ui class="contacts">
-						<li class="active">
-							<div class="d-flex bd-highlight">
-								<div class="img_cont">
-									<img src="assets/images/logo-denis-r-s.png" class="rounded-circle user_img">
-									<span class="online_icon"></span>
-								</div>
-								<div class="user_info">
-									<span>Khalid</span>
-									<p>Kalid is online</p>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="d-flex bd-highlight">
-								<div class="img_cont">
-									<img src="assets/images/logo-denis-r-s.png" class="rounded-circle user_img">
-									<span class="online_icon offline"></span>
-								</div>
-								<div class="user_info">
-									<span>Taherah Big</span>
-									<p>Taherah left 7 mins ago</p>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="d-flex bd-highlight">
-								<div class="img_cont">
-									<img src="assets/images/logo-denis-r-s.png" class="rounded-circle user_img">
-									<span class="online_icon"></span>
-								</div>
-								<div class="user_info">
-									<span>Sami Rafi</span>
-									<p>Sami is online</p>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="d-flex bd-highlight">
-								<div class="img_cont">
-									<img src="assets/images/logo-denis-r-s.png" class="rounded-circle user_img">
-									<span class="online_icon offline"></span>
-								</div>
-								<div class="user_info">
-									<span>Nargis Hawa</span>
-									<p>Nargis left 30 mins ago</p>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="d-flex bd-highlight">
-								<div class="img_cont">
-									<img src="assets/images/logo-denis-r-s.png" class="rounded-circle user_img">
-									<span class="online_icon offline"></span>
-								</div>
-								<div class="user_info">
-									<span>Rashid Samim</span>
-									<p>Rashid left 50 mins ago</p>
-								</div>
-							</div>
-						</li>
-						</ui>
-					</div>
-					<div class="card-footer"></div>
 				</div></div>
-				<div class="col-md-8 col-xl-6 chat">
+				<div style="margin-top: -500px;" class="col-md-8 col-xl-6 chat">
 					<div class="card">
 						<div class="card-header msg_head">
 							<div class="d-flex bd-highlight">
@@ -195,7 +121,7 @@
 									<span class="online_icon"></span>
 								</div>
 								<div class="user_info">
-									<span>Chat with Khalid</span>
+									<span>Chat avec Alexandre</span>
 									<p>1767 Messages</p>
 								</div>
 								<div class="video_cam">
@@ -206,26 +132,18 @@
 							<span id="action_menu_btn"><i class="fas fa-ellipsis-v"></i></span>
 							<div class="action_menu">
 								<ul>
-									<li><i class="fas fa-user-circle"></i> View profile</li>
-									<li><i class="fas fa-users"></i> Add to close friends</li>
-									<li><i class="fas fa-plus"></i> Add to group</li>
-									<li><i class="fas fa-ban"></i> Block</li>
+									<li><i class="fas fa-user-circle"></i> Voir le profil</li>
+									<li><i class="fas fa-users"></i> Ajouter aux amis proches</li>
+									<li><i class="fas fa-plus"></i> Ajouter à un groupe</li>
+									<li><i class="fas fa-ban"></i> Bloquer</li>
 								</ul>
 							</div>
 						</div>
 						<div class="card-body msg_card_body">
-							<div class="d-flex justify-content-start mb-4">
-								<div class="img_cont_msg">
-									<img src="assets/images/logo-denis-r-s.png" class="rounded-circle user_img_msg">
-								</div>
-								<div class="msg_cotainer">
-									Hi, how are you samim?
-									<span class="msg_time">8:40 AM, Today</span>
-								</div>
-							</div>
+
 							<div class="d-flex justify-content-end mb-4">
 								<div class="msg_cotainer_send">
-									Hi Khalid i am good tnx how about you?
+									Salut le SAMU. Plus de place <br> en USIC Déporter sur 1 autre <br> établissement quand possible svp
 									<span class="msg_time_send">8:55 AM, Today</span>
 								</div>
 								<div class="img_cont_msg">
@@ -237,13 +155,13 @@
 									<img src="assets/images/logo-denis-r-s.png" class="rounded-circle user_img_msg">
 								</div>
 								<div class="msg_cotainer">
-									I am good too, thank you for your chat template
+									C'est noté, on fait au mieux.
 									<span class="msg_time">9:00 AM, Today</span>
 								</div>
 							</div>
 							<div class="d-flex justify-content-end mb-4">
 								<div class="msg_cotainer_send">
-									You are welcome
+									Merci beaucoup.
 									<span class="msg_time_send">9:05 AM, Today</span>
 								</div>
 								<div class="img_cont_msg">
@@ -255,37 +173,21 @@
 									<img src="assets/images/logo-denis-r-s.png" class="rounded-circle user_img_msg">
 								</div>
 								<div class="msg_cotainer">
-									I am looking for your next templates
+									Bon courage.
 									<span class="msg_time">9:07 AM, Today</span>
 								</div>
 							</div>
-							<div class="d-flex justify-content-end mb-4">
-								<div class="msg_cotainer_send">
-									Ok, thank you have a good day
-									<span class="msg_time_send">9:10 AM, Today</span>
-								</div>
-								<div class="img_cont_msg">
-						<img src="assets/images/logo-denis-r-s.png" class="rounded-circle user_img_msg">
-								</div>
+							<div id="emptyDiv" class="d-flex justify-content-end mb-4">
+
 							</div>
-							<div class="d-flex justify-content-start mb-4">
-								<div class="img_cont_msg">
-									<img src="assets/images/logo-denis-r-s.png" class="rounded-circle user_img_msg">
-								</div>
-								<div class="msg_cotainer">
-									Bye, see you
-									<span class="msg_time">9:12 AM, Today</span>
-								</div>
-							</div>
-						</div>
-						<div class="card-footer">
+							<div class="card-footer">
 							<div class="input-group">
 								<div class="input-group-append">
 									<span class="input-group-text attach_btn"><i class="fas fa-paperclip"></i></span>
 								</div>
-								<textarea name="" class="form-control type_msg" placeholder="Type your message..."></textarea>
+								<textarea id="inputMessage" name="" class="form-control type_msg" placeholder="Type your message...">Merci, à vous aussi</textarea>
 								<div class="input-group-append">
-									<span class="input-group-text send_btn"><i class="fas fa-location-arrow"></i></span>
+									<span id="buttonSend" class="input-group-text send_btn"><i class="fas fa-location-arrow"></i></span>
 								</div>
 							</div>
 						</div>
