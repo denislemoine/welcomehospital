@@ -6,8 +6,8 @@ body,
 			background: #60a3bc !important;
 		}
 		.user_card {
-			height: 400px;
-			width: 350px;
+			height: 700px;
+			width: 650px;
 			margin-top: auto;
 			margin-bottom: auto;
 			background: #f39c12;
@@ -24,8 +24,8 @@ body,
 		}
 		.brand_logo_container {
 			position: absolute;
-			height: 170px;
-			width: 170px;
+			height: 370px;
+			width: 370px;
 			top: -75px;
 			border-radius: 50%;
 			background: #57a3cb;
@@ -33,8 +33,8 @@ body,
 			text-align: center;
 		}
 		.brand_logo {
-			height: 150px;
-			width: 150px;
+			height: 350px;
+			width: 350px;
 			border-radius: 50%;
 			border: 2px solid white;
 		}
@@ -42,7 +42,7 @@ body,
 			margin-top: 100px;
 		}
 		.login_btn {
-			width: 100%;
+			width: 150%;
 			background: #b93c39 !important;
 			color: white !important;
 		}
