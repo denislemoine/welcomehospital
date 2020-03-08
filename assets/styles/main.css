@@ -613,7 +613,7 @@ a span{
 
 #descwh{
   color:white;
-  font-size: 10px
+  font-size: 13px
 }
 
 #infopratblue{
@@ -626,3 +626,34 @@ a span{
   padding-top: 30px;
 }
 
+#secImLesBonsPlans {
+  background-color: #f8a546;
+}
+
+.bonsplanstexte {
+  margin-top: 150px;
+}
+
+/* titre des pages */
+.décalé_annuaire{
+  margin-left: 22px;
+}
+.décalé_bonplan{
+  margin-left: 8px;
+}
+.décalé_discution{
+  margin-left: 28px;
+}
+.décalé_garde{
+  margin-left: 28px;
+}
+.décalé_info{
+  margin-left: 30px;
+}
+.décalé_protocole{
+  margin-left: 0px;
+}
+
+.textlogo{
+  color:#b93c39;
+}
